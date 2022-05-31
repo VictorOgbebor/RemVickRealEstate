@@ -5,7 +5,7 @@ import "hardhat/console.sol";
 
 error DoesNotExist();
 
-contract Crud {
+contract UserRegister {
   User[] public users;
   uint256 public nextId = 1;
   address admin;
